@@ -15,12 +15,14 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatCardModule } from '@angular/material/card';
 import { MatListModule } from '@angular/material/list';
+import { ItemDetailComponent } from './item-detail/item-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ToolbarComponent,
-    MainBodyComponent
+    MainBodyComponent,
+    ItemDetailComponent
   ],
   imports: [
     BrowserModule,
